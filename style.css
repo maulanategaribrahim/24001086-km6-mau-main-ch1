@@ -1,0 +1,17 @@
+.header{
+    margin-top: 58px;
+}
+h1{
+    font-weight: bold;
+}
+.navbar-brand{
+    font-weight: bold;
+}
+.navbar-nav .nav-link {
+    font-weight: bold;
+}
+.btn-custom {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
