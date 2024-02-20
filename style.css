@@ -1,3 +1,6 @@
+body{
+    background-color: #f8f9fa;
+}
 .navbar{
     background-color: #f8f9fa;
 }
@@ -19,3 +22,11 @@ h1{
     background-color: #007bff;
     border-color: #007bff;
 }
+.card {
+    background-color: #007bff;
+    color: white; 
+}
+.card-body{
+text-align: center;
+}
+
