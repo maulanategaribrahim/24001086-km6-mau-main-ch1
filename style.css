@@ -1,6 +1,10 @@
+.navbar{
+    background-color: #f8f9fa;
+}
 .header{
     margin-top: 58px;
 }
+
 h1{
     font-weight: bold;
 }
