@@ -56,22 +56,18 @@ text-align: center;
     .d-flex.align-items-center > img {
     margin-bottom: 5px;
     padding-top: 5px;
-}
-.Services{
-    margin-bottom: 20px;
-    padding-top: 20px;
-}
-.card.row {
-    width: 100%;
-    margin: 0 5px;
+    }
+
+    .Services{
+        margin-bottom: 20px;
+        padding-top: 20px;
+    }
+    .WhyUs h1 {
+        text-align: center;
+    }
+    .WhyUs p {
+        text-align: center;
+    }
 }
 
-.card:last-child {
-    margin-right: 0;
-}
-.WhyUs h1 {
-      text-align: center;
-}
-.WhyUs p {
-    text-align: center;
-}
+
