@@ -1,6 +1,12 @@
 body{
     font-family: Helvetica;
+    
+    
 }
+.section-with-margin:not(:first-child) {
+    margin-top: 50px; /* Sesuaikan dengan jarak yang Anda inginkan */
+}
+
 #hero{
     background-color: #f8f9fa;    
 }
@@ -98,6 +104,4 @@ h1{
     border-radius: 8px;
     border: 1px solid #000;
 }
-
-
 
