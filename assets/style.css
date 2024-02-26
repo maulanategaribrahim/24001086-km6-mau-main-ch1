@@ -84,24 +84,6 @@ h1{
     max-height: 270px;
    
     }
-    .accordion.show #faq_title {
-    width: 100%;
-    background-color: #ffffff;
-    z-index: 1000; 
-    }
   
-}
-
-.container-fluid .accordion-header {
-    max-width: 1168px;
-    height: 57px;
-    border-radius: 8px;
-    border: 1px solid #000;
-}
-
-.container-fluid .accordion-body {
-    max-width: 1168px;
-    border-radius: 8px;
-    border: 1px solid #000;
 }
 
