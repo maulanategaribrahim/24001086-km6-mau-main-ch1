@@ -43,7 +43,9 @@
             </div>
         </nav>
     <!--navbar mobile-->
-        <div class="offcanvas offcanvas-end w-50 d-lg-none" data-bs-scroll="true" tabindex="-1" data-bs-backdrop="true" id="navbar_mobile" aria-labelledby="navbar_mobileLabel" aria-modal="true" role="dialog">
+        <div 
+            class="offcanvas offcanvas-end w-50 d-lg-none" 
+            data-bs-scroll="true" tabindex="-1" data-bs-backdrop="true" id="navbar_mobile" aria-labelledby="navbar_mobileLabel" aria-modal="true" role="dialog">
             <div class="offcanvas-header">
                 <a href="#" class="nav-link">
                     <h5 class="offcanvas-title fw-bold" id="navbar_mobileLabel">BCR</h5>
@@ -206,147 +208,149 @@
             </div>
         </div>
     </section>
-    <!--Testimonialcaraousel-->
-    <section 
-        id="testimonial" 
-        class="mt-5 pt-5 ">
+    <!--Testimonial-->
+    <section id="testimonial" 
+        class="mt-5 pt-5 d-flex justify-content-center align-items-center"">
         <div
-            class="container px-4 py-5"
-            id="featured-3"
+            class="container"
             >
-            <h1 class="fw-bold pb-2 text-center mt-5">Testimonial</h1>
-            <p class="text-center">Berbagai review positif dari para pelanggan kami</p>
-                <div
-                    id="carouselExample"
-                    class="carousel slide m-auto align-items-center"
-                    >
-                    <div class="carousel-inner card py-4">
-                        <div class="row d-flex justify-content-center">
-                            <div class="col-2">
-                            <button
-                                class="carousel-control-prev"
-                                type="button"
-                                data-bs-target="#carouselExample"
-                                data-bs-slide="prev"
-                            >
-                                <img
-                                src="../assets/Images/Vector.svg"
-                                alt=""
-                                class="img-fluid"
-                                />
-                            </button>
-                            </div>
-                            <div class="col-8">
-                                <div class="carousel-item active">
-                                <div class="row">
-                                <div class="col-4 d-flex justify-content-center align-items-center">
-                                    <img
-                                    id="profile_img"
-                                    src="../assets/Images/img_photo.svg"
-                                    alt=""
-                                    class="img-fluid rounded-circle"
-                                    />
-                                </div>
-                                <div class="col-8">
-                                    <div class="row d-flex flex-column">
-                                    <div class="col-12">
-                                        <img
-                                        src="../assets//Images/Rate.svg"
-                                        alt=""
-                                        class="img-fluid"
-                                        />
-                                    </div>
-                                    <div class="col-12">
-                                        <p>
-                                        “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit
-                                        amet, consectetur adipiscing elit, sed do eiusmod”
-                                        </p>
-                                    </div>
-                                    <div class="col-12">
-                                        <p class="fw-bold">John Doe 32, Bromo</p>
-                                    </div>
-                                    </div>
-                                </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="row">
-                                <div class="col-4 d-flex justify-content-center align-items-center">
-                                    <img
-                                    id="profile_img"
-                                    src="../assets/Images/img_photo.svg"
-                                    alt=""
-                                    class="img-fluid rounded-circle"
-                                    />
-                                </div>
-                                <div class="col-8">
-                                    <div class="row d-flex flex-column">
-                                    <div class="col-12">
-                                        <img
-                                        src="../assets/Images/Rate.svg"
-                                        alt=""
-                                        class="img-fluid"
-                                        />
-                                    </div>
-                                    <div class="col-12">
-                                        <p>
-                                        “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit
-                                        amet, consectetur adipiscing elit, sed do eiusmod”
-                                        </p>
-                                    </div>
-                                    <div class="col-12">
-                                        <p class="fw-bold">John Doe 32, Bromo</p>
-                                    </div>
-                                    </div>
-                                </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="row">
-                                <div class="col-4 d-flex justify-content-center align-items-center">
-                                    <img
-                                    id="profile_img"
-                                    src="../assets/Images/img_photo.svg"
-                                    alt=""
-                                    class="img-fluid rounded-circle"
-                                    />
-                                </div>
-                                <div class="col-8">
-                                    <div class="row d-flex flex-column">
-                                    <div class="col-12">
-                                        <img
-                                        src="../assets/Images/Rate.svg"
-                                        alt=""
-                                        class="img-fluid"
-                                        />
-                                    </div>
-                                    <div class="col-12">
-                                        <p>
-                                        “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit
-                                        amet, consectetur adipiscing elit, sed do eiusmod”
-                                        </p>
-                                    </div>
-                                    <div class="col-12">
-                                        <p class="fw-bold">John Doe 32, Bromo</p>
-                                    </div>
-                                    </div>
-                                </div>
-                                </div>
-                            </div>
-                            </div>
-                            <div class="col-2">
-                            <button
-                                class="carousel-control-next"
-                                type="button"
-                                data-bs-target="#carouselExample"
-                                data-bs-slide="next"
+            <div class="row">
+                <div class="col-12 col-md-8 mx-auto">
+                    <h1 class="pb-2 text-center mt-5">Testimonial</h1>
+                    <p class="text-center">Berbagai review positif dari para pelanggan kami</p>
+                    <div
+                        id="carouselExample"
+                        class="carousel slide"
+                        >
+                        <div class="carousel-inner card py-4">
+                            <div class="row d-flex justify-content-center">
+                                <div class="col-2">
+                                <button
+                                    class="carousel-control-prev"
+                                    type="button"
+                                    data-bs-target="#carouselExample"
+                                    data-bs-slide="prev"
                                 >
-                                <img
-                                src="../assets/Images/Vector-kanan.svg"
-                                alt=""
-                                class="img-fluid"
-                                />
-                            </button>
+                                    <img
+                                    src="../assets/Images/Vector.svg"
+                                    alt=""
+                                    class="img-fluid"
+                                    />
+                                </button>
+                                </div>
+                                <div class="col-8">
+                                    <div class="carousel-item">
+                                    <div class="row">
+                                    <div class="col-12 col-md-4 d-flex justify-content-center align-items-center">
+                                        <img
+                                        id=""
+                                        src="../assets/Images/img_photo.svg"
+                                        alt=""
+                                        class="img-fluid rounded-circle"
+                                        />
+                                    </div>
+                                    <div class="col-12 col-md-8">
+                                        <div class="row d-flex flex-column">
+                                        <div class="col-12 d-flex my-2">
+                                            <img
+                                            src="../assets//Images/Rate.svg"
+                                            alt=""
+                                            class="img-fluid"
+                                            />
+                                        </div>
+                                        <div class="col-12">
+                                            <p>
+                                            “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit
+                                            amet, consectetur adipiscing elit, sed do eiusmod”
+                                            </p>
+                                        </div>
+                                        <div class="col-12">
+                                            <p class="fw-bold">John Doe 32, Bromo</p>
+                                        </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="row">
+                                    <div class="col-12 col-md-4 d-flex justify-content-center align-items-center">
+                                        <img
+                                        id=""
+                                        src="../assets/Images/img_photo.svg"
+                                        alt=""
+                                        class="img-fluid rounded-circle"
+                                        />
+                                    </div>
+                                    <div class="col-12 col-md-8">
+                                        <div class="row d-flex flex-column">
+                                        <div class="col-12 d-flex my-2">
+                                            <img
+                                            src="../assets//Images/Rate.svg"
+                                            alt=""
+                                            class="img-fluid"
+                                            />
+                                        </div>
+                                        <div class="col-12">
+                                            <p>
+                                            “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit
+                                            amet, consectetur adipiscing elit, sed do eiusmod”
+                                            </p>
+                                        </div>
+                                        <div class="col-12">
+                                            <p class="fw-bold">John Doe 32, Bromo</p>
+                                        </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item active">
+                                    <div class="row">
+                                    <div class="col-12 col-md-4 d-flex justify-content-center align-items-center">
+                                        <img
+                                        id=""
+                                        src="../assets/Images/img_photo.svg"
+                                        alt=""
+                                        class="img-fluid rounded-circle"
+                                        />
+                                    </div>
+                                    <div class="col-12 col-md-8">
+                                        <div class="row d-flex flex-column">
+                                        <div class="col-12 d-flex my-2">
+                                            <img
+                                            src="../assets//Images/Rate.svg"
+                                            alt=""
+                                            class="img-fluid"
+                                            />
+                                        </div>
+                                        <div class="col-12">
+                                            <p>
+                                            “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit
+                                            amet, consectetur adipiscing elit, sed do eiusmod”
+                                            </p>
+                                        </div>
+                                        <div class="col-12">
+                                            <p class="fw-bold">John Doe 32, Bromo</p>
+                                        </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                                </div>
+                                <div class="col-2">
+                                    <button
+                                        class="carousel-control-next"
+                                        type="button"
+                                        data-bs-target="#carouselExample"
+                                        data-bs-slide="next"
+                                        >
+                                        <img
+                                        src="../assets/Images/Vector-kanan.svg"
+                                        alt=""
+                                        class="img-fluid"
+                                        />
+                                    </button>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

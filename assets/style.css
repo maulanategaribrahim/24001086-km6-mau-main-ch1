@@ -3,9 +3,6 @@ body{
     
     
 }
-.section-with-margin:not(:first-child) {
-    margin-top: 50px; /* Sesuaikan dengan jarak yang Anda inginkan */
-}
 
 #hero{
     background-color: #f8f9fa;    
@@ -53,18 +50,18 @@ h1{
     max-width: 704px;
 }
 
-.card {
+/* .card {
     background-color: #C4C4C4;
-}
+} */
 #icon {
     width: 100px;
     height: 80px;
 }
-.d-flex align-items-center {
+/* .d-flex align-items-center {
     font-weight: 700;
     font-size: 36px;
     line-height: 54px;
-}
+} */
 
 @media (max-width: 768px) {
     
@@ -78,11 +75,6 @@ h1{
     }
     .WhyUs p {
         text-align: center;
-    }
-    .carousel {
-    max-width: 832px;
-    max-height: 270px;
-   
     }
   
 }
